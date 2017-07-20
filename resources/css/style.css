@@ -27,11 +27,13 @@ h3 {
 header {
   height: 31rem;
   width: 100%;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/logo-black.png);
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .head-container {
@@ -41,11 +43,13 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-top: 1rem;
+  background-color: cadetblue;
 }
 /*Logo*/
 .logo {
   display: inline-flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .logo img {
@@ -53,6 +57,8 @@ header {
   width: auto;
   margin-left: 2rem;
   margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .logo h3 {
@@ -61,12 +67,12 @@ header {
 
 /*Nav-bar*/
 nav {
-  display: inline;
-  margin: 1rem 0;
+  display: inline-flex;
 }
 
 nav a {
   text-decoration: none;
+  margin: 0;
 }
 
 nav h3 {
@@ -75,13 +81,25 @@ nav h3 {
 
 /*Container in header */
 
+.text-block {
+  width: 960px;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 2rem;
+  margin-top: 10rem;
+}
+
 .text-container {
   background-color: white;
-  align-self: flex-end;
-  margin-top: 10rem;
-  margin-left: 2rem;
 }
 
 .text-container h1{
   margin: 1.5rem 5rem;
+}
+
+/* Main */
+
+main {
+
 }
