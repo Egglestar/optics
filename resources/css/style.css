@@ -101,5 +101,49 @@ nav h3 {
 /* Main */
 
 main {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
 
+.box1 {
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom:  3rem;
+}
+
+.exams, .fittings, .delivery {
+  height: 8rem;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /*?????????*/
+  align-items: center;
+  text-align: center;
+}
+
+.fittings {
+  margin: 0 6rem;
+}
+
+.exams img {
+  width: 3.5rem;
+  height: auto;
+}
+
+.fittings img, .delivery img {
+  width: 5rem;
+  height: auto;
+}
+
+.box2 {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.philosophy, .appointments {
+  width: 35%;
+  height: auto;
 }
