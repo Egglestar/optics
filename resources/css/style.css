@@ -1,4 +1,4 @@
-* {border: 1px dashed blue !important;}
+/* {border: 1px dashed blue !important;}
 
 /* overall */
 
@@ -107,7 +107,7 @@ main {
 }
 
 .box1 {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   margin-top: 3rem;
   margin-bottom:  3rem;
@@ -146,4 +146,44 @@ main {
 .philosophy, .appointments {
   width: 35%;
   height: auto;
+}
+
+.philosophy {
+  margin-right: 5%;
+}
+
+.philosophy-header, .appointments-header {
+  background-color: cadetblue;
+  width: 10rem;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.philosophy h3, .appointments h3 {
+  margin-left: 1.25rem;
+  margin-top: 0.5rem; /*???????????*/
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 960px;
+  height: auto;
+  background-color: azure;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.footer-logo img {
+  height: 1.5rem;
+  width: auto;
+  margin: 4rem 1rem 4rem 4rem;
 }
